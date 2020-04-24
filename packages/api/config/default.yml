@@ -2,9 +2,11 @@ server:
   port: 4000
 
 db:
-  type: 'postgres'
+  type: "postgres"
   port: 5432
   database: code_mentoring_learning
+  username: postgres
+  password: postgres
 
 auth:
   jwtSecret: secret
